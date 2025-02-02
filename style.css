@@ -62,7 +62,7 @@ nav a:hover{
 #heroInfo{
     text-align: right;
 }
-#hero a{
+.whiteButton{
     text-decoration: none;
     display: block;
     text-align: center;
@@ -74,7 +74,7 @@ nav a:hover{
     line-height: 40px;
     transition: 0.3s;
 }
-#hero a:hover{
+.whiteButton:hover{
     width: 165px;
     background-color: white;
 }
@@ -117,6 +117,11 @@ nav a:hover{
 .voyages{
     margin-bottom: 4px;
 }
+.trips{
+    text-align: center;
+    margin-top: 30px;
+
+}
 .trip{
 display: inline-block;
 padding: 20px 0;
@@ -126,11 +131,49 @@ border-radius: 20px;
 width: 27%;
 background-size: cover;
 background-position: center;
+text-align: center;
+line-height: 30px;
+}
+.trip h2{
+    text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+    margin-bottom: 13px;
+}
+.trip ul{
+    background-color: rgba(255, 255, 255, 0.787);
+    margin-bottom: 15px;
+    color: #333;
+}
+.trip .whiteButton{
+    background-color: rgba(255, 255, 255, 0.826); 
+    line-height: 32px;
+    margin-top: 10px;
+    width: 120px;
 }
 #Korea{
     background-image: url(Korea.jpg);
 }
+#Korea h2{
+    color: rgba(48, 161, 101, 0.877);
+}
+
+.trip .whiteButton:hover{
+    width: 125px;
+}
+#France{
+    background-image: url(France.jpg);
+}
+#France h2{
+    color: rgba(155, 40, 40, 0.874);
+}
+
+#Holland{
+    background-image: url(Holand.jpg);
+}
+#Holland h2{
+    color: rgba(255, 255, 255, 0.874);
+}
 ul{
+    /* Чтобы точек в списке не было */
     list-style: none;
 }
 .member{
@@ -148,4 +191,13 @@ ul{
 .member img{
     width: 60%;
     border-radius: 360px;
+}
+.members{
+    text-align: center;
+}
+.member .whiteButton{
+
+}
+.member .whiteButton:hover{
+    
 }
