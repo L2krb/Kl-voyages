@@ -8,11 +8,16 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url(blur\ \(1\).jpg);
     font-family: "Outfit", sans-serif; 
     background-size: cover;  
 }
+
+
 h1{
     display: inline-block;
     vertical-align: middle;
@@ -37,10 +42,11 @@ nav a:hover{
     background-color: rgba(0, 0, 0, 0.071);
 }
 #hero{
-    background-image: url('mountain.webp');
+    background-image: url('bk1.jpg');
     padding: 50px 0;
     background-size: cover;
     background-position: center;
+    padding-bottom: 140px;
 }
 #hero h2{
     font-size: 44px;
@@ -61,6 +67,12 @@ nav a:hover{
 }
 #heroInfo{
     text-align: right;
+}
+#secondary{
+    margin-top: -5px;
+}
+#mainp{
+    margin-top: -8px;
 }
 .whiteButton{
     text-decoration: none;
@@ -153,7 +165,7 @@ line-height: 30px;
     background-image: url(Korea.jpg);
 }
 #Korea h2{
-    color: rgba(48, 161, 101, 0.877);
+    color: rgba(255, 255, 255, 0.874);
 }
 
 .trip .whiteButton:hover{
@@ -163,11 +175,11 @@ line-height: 30px;
     background-image: url(France.jpg);
 }
 #France h2{
-    color: rgba(155, 40, 40, 0.874);
+    color: rgba(255, 255, 255, 0.874);
 }
 
 #Holland{
-    background-image: url(Holand.jpg);
+    background-image: url(Holland\ 2.jpg);
 }
 #Holland h2{
     color: rgba(255, 255, 255, 0.874);
@@ -187,6 +199,10 @@ ul{
     vertical-align: top;
     margin: 0 20px;
     text-align: center;
+    margin-bottom: 25px;
+}
+.member a{
+    margin-top: 20px;
 }
 .member img{
     width: 60%;
@@ -195,9 +211,50 @@ ul{
 .members{
     text-align: center;
 }
-.member .whiteButton{
-
+.member h5{
+    margin: 5px ;
 }
-.member .whiteButton:hover{
+.feedback{
+    display: block;
+}
+.feedback h2{
+    color: rgb(239, 234, 234);
+    padding: 20px ;
+}
+.feedback h5{
+    color: #333333ab;
+    margin-bottom: 15px;
+}
+.feedbacks{
+    text-align: center; 
+}
+.feedback input{
+    display: block;
+    line-height: 40px;
+    padding: 0 5px;
+    width: 90%;
+    max-width: 400px;
+    margin: 5px auto;
+    border: none;
+    border-radius: 2px;
+    font-family: "Outfit", sans-serif; 
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+}
+.feedback textarea{
+    font-family: "Outfit", sans-serif; 
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    border-radius: 2px;
+    padding: 5px;
+    border: none;
+    resize: none;
+}
+.feedback button{
+    border: none;
+    margin: 20px auto 100px ;
+    cursor: pointer;
+    display: block;
+    font-family: "Outfit", sans-serif; 
     
 }
